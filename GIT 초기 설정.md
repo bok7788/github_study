@@ -52,11 +52,34 @@ $ git status
 
 ```bash
 $ git add 파일명
+$ git add . # 현재 디렉토리 모두
+$ git add a.txt
+$ git add directory_name
 ```
 
 - working directory 상태의 파일을  staging area상태로 변경
+- 커밋을 위한 파일 및 폴더들을 추가하는 명령어
 
 - 자동완성 : 첫자+tab
+
+# commit
+
+```bash
+$ git commit -m "commit message" #커밋 메세지
+# git commit -m "210624 | ~~"
+$ git log --oneline
+#(HEAD->master) 최신버전
+```
+
+- 커밋을 통해 하나의 버전으로 기록 됨
+- 커밋 메세지는 현재 변경사항들을 잘 나타낼수 있도록 작성하는 것을 권장
+- 커밋 목록은 git log를 통하여 확인
+
+# MV
+
+- mv 이전이름 새이름
+
+
 
 
 
