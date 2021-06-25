@@ -27,12 +27,27 @@ $ git remote -v
 $ git remote rm origin
 ```
 
-### 원격 저장소에 업로드(push
+### 원격 저장소에 업로드(push)
 
 ```bash
 # origin 원격저장소에 master브랜치에 commit 내용 업로드
 $ git push -u origin master
 ```
 
+# github에서 소스 가져오기
 
+- 원격 저장소 내용 전체 복제
+- 주의사항 : 이미 git init 되어 있음
+
+```bash
+$ git clone {원격저장소 url}
+```
+
+
+
+# 원격 저장소의 변경사항 받아옴(update)
+
+```bash
+$ git pull origin master
+```
 
